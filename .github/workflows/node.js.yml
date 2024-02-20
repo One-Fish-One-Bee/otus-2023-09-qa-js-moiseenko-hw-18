@@ -3,7 +3,7 @@ name: New pipeline
 on:
   workflow_dispatch:
   push:
-    branches: [ "hw-19" ]
+    branches: [ "project" ]
 
 permissions: # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages 
   contents: read
